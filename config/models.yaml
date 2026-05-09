@@ -1,0 +1,18 @@
+models:
+  generator:
+    - name: "deepseek-v4-flash"
+      provider: "deepseek"
+  evaluator:
+    - name: "deepseek-v4-flash"
+      provider: "deepseek"
+  blind_solver:
+    - name: "deepseek-v4-flash"
+      provider: "deepseek"
+  updater:
+    - name: "deepseek-v4-flash"
+      provider: "deepseek"
+
+providers:
+  deepseek:
+    base_url: "https://api.deepseek.com"
+    api_key_env: "DEEPSEEK_API_KEY"

@@ -1,0 +1,9 @@
+experiment:
+  questions_per_epoch: 10
+  pairwise_per_question: 3   # 每道生成题与几道真题做对比
+  min_true_questions: 50
+  train_ratio: 0.6
+  dev_ratio: 0.2
+  test_ratio: 0.2
+  current_epoch: 1
+  max_epochs: 3

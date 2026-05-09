@@ -1,0 +1,9 @@
+{
+  "epoch": 2,
+  "total_generated": 10,
+  "total_comparisons": 30,
+  "win": 17,
+  "tie": 0,
+  "loss": 13,
+  "win_rate": 0.5667
+}
